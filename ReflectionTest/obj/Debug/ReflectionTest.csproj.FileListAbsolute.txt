@@ -1,0 +1,9 @@
+H:\Desktop\ReflectionTest\ReflectionTest\bin\Debug\ReflectionTest.exe.config
+H:\Desktop\ReflectionTest\ReflectionTest\bin\Debug\ReflectionTest.exe
+H:\Desktop\ReflectionTest\ReflectionTest\bin\Debug\ReflectionTest.pdb
+H:\Desktop\ReflectionTest\ReflectionTest\obj\Debug\ReflectionTest.exe
+H:\Desktop\ReflectionTest\ReflectionTest\obj\Debug\ReflectionTest.pdb
+H:\Desktop\ReflectionTest\ReflectionTest\obj\Debug\ReflectionTest.csprojResolveAssemblyReference.cache
+H:\Desktop\反射demo-ReflectionTest\ReflectionTest\bin\Debug\ReflectionTest.exe.config
+H:\Desktop\反射demo-ReflectionTest\ReflectionTest\obj\Debug\ReflectionTest.exe
+H:\Desktop\反射demo-ReflectionTest\ReflectionTest\obj\Debug\ReflectionTest.pdb
