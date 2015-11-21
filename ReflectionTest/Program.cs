@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Model;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
@@ -19,10 +20,12 @@ namespace ReflectionTest
                 string s = Console.ReadLine();
 
                 //dll路径
-                string dllPath = ConfigurationManager.AppSettings["Assembly"] + s + ".dll";
+                //string dllPath = ConfigurationManager.AppSettings["Assembly"] + s + ".dll";
+                string dllPath = "ReflectionTest." + s + "";
 
-                //加载dll
-                System.Reflection.Assembly ass = Assembly.LoadFrom(dllPath);
+                //加载dll             这里传入的是命名空间也就是在 程序根目录寻找 dll
+                //System.Reflection.Assembly ass = Assembly.LoadFrom(dllPath);
+                System.Reflection.Assembly ass = Assembly.Load(dllPath);
 
                 //传入类型的命名空间和名称获得类型
                 Type type = ass.GetType("ReflectionTest." + s + ".TestClass");
@@ -44,17 +47,17 @@ namespace ReflectionTest
                 #region 给属性赋值
                 //type.GetProperty("TestStr").SetValue(o,"你妈逼",null);
 
-                propertyInfo.SetValue(o, "123", null);
+                //propertyInfo.SetValue(o, "123", null);
                 #endregion
 
                 #region 获取 属性的值
 
                 //获取属性值
-                string value_Old = (string)propertyInfo.GetValue(o, null);
+                //string value_Old = (string)propertyInfo.GetValue(o, null);
 
                 //输出方法
-                Console.WriteLine("参数值：" + value_Old);
-                #endregion 
+                //Console.WriteLine("参数值：" + value_Old);
+                #endregion
 
                 #endregion
 
@@ -62,11 +65,11 @@ namespace ReflectionTest
 
                 #region 调用一个没有返回值并且没有参数的方法
 
-                //获取方法   //如果调用重载方法一定要 加上参数类型 如果没有参数则数组为空 否则会找不到相对应的方法的
-                MethodInfo method = type.GetMethod("PrintText", new Type[] { });
+                ////获取方法   //如果调用重载方法一定要 加上参数类型 如果没有参数则数组为空 否则会找不到相对应的方法的
+                //MethodInfo method = type.GetMethod("PrintText", new Type[] { });
 
-                //执行方法
-                method.Invoke(o, null);
+                ////执行方法
+                //method.Invoke(o, null);
 
                 #endregion
 
@@ -78,23 +81,32 @@ namespace ReflectionTest
 
                 #region 调用一个带参数的方法
 
-                //设置方法中的参数类型
-                params_Type = new Type[1] { typeof(string) };
-                //设置 方法中的参数值
-                params_Obj = new Object[1] { "你好啊" };
+                ////设置方法中的参数类型
+                //params_Type = new Type[1] { typeof(string) };
+                ////设置 方法中的参数值
+                //params_Obj = new Object[1] { "你好啊" };
 
-                //开始执行方法    实例化方法的时候讲参数类型带进去    执行方法的时候 将参数带进去
-                type.GetMethod("PrintText", params_Type).Invoke(o, params_Obj);
+                ////开始执行方法    实例化方法的时候讲参数类型带进去    执行方法的时候 将参数带进去
+                //type.GetMethod("PrintText", params_Type).Invoke(o, params_Obj);
                 #endregion
 
                 #region 调用一个带参数并有返回值的方法
+                ////设置方法中的参数类型
+                //params_Type = new Type[2] { typeof(int), typeof(int) };
+                ////设置 方法中的参数值
+                //params_Obj = new Object[2] { 1, 2 };
+                ////开始执行方法    实例化方法的时候讲参数类型带进去    执行方法的时候 将参数带进去
+                //Console.WriteLine(type.GetMethod("GetNumUs", params_Type).Invoke(o, params_Obj).ToString());
+
                 //设置方法中的参数类型
-                params_Type = new Type[2] { typeof(int), typeof(int) };
+                params_Type = new Type[1] { typeof(string) };
                 //设置 方法中的参数值
-                params_Obj = new Object[2] { 1, 2 };
+                params_Obj = new Object[1] { "李狗蛋" };
+                TestModel testModel = (TestModel)type.GetMethod("TestGetModel", params_Type).Invoke(o, params_Obj);
                 //开始执行方法    实例化方法的时候讲参数类型带进去    执行方法的时候 将参数带进去
-                Console.WriteLine(type.GetMethod("GetNumUs", params_Type).Invoke(o, params_Obj).ToString());
-                #endregion 
+                Console.WriteLine(testModel.Name);
+
+                #endregion
 
                 #endregion
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,6 +30,13 @@ namespace ReflectionTest.One
        public int GetNumUs(int nuOne, int nuTwo)
        {
            return nuOne + nuTwo;
+       }
+
+       public TestModel TestGetModel(string name)
+       {
+           TestModel test = new TestModel();
+           test.Name = name + "|TestOne";
+           return test;
        }
     }
 }
