@@ -1,0 +1,8 @@
+H:\Desktop\InterFace-Reflection-Demo\InterFace-Reflection-Demo\bin\Debug\InterFace-Reflection-Demo.exe.config
+H:\Desktop\InterFace-Reflection-Demo\InterFace-Reflection-Demo\bin\Debug\InterFace-Reflection-Demo.exe
+H:\Desktop\InterFace-Reflection-Demo\InterFace-Reflection-Demo\bin\Debug\InterFace-Reflection-Demo.pdb
+H:\Desktop\InterFace-Reflection-Demo\InterFace-Reflection-Demo\bin\Debug\IReflection.dll
+H:\Desktop\InterFace-Reflection-Demo\InterFace-Reflection-Demo\bin\Debug\IReflection.pdb
+H:\Desktop\InterFace-Reflection-Demo\InterFace-Reflection-Demo\obj\Debug\InterFace-Reflection-Demo.csprojResolveAssemblyReference.cache
+H:\Desktop\InterFace-Reflection-Demo\InterFace-Reflection-Demo\obj\Debug\InterFace-Reflection-Demo.exe
+H:\Desktop\InterFace-Reflection-Demo\InterFace-Reflection-Demo\obj\Debug\InterFace-Reflection-Demo.pdb

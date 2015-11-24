@@ -1,5 +1,0 @@
-H:\Desktop\ReflectionTest\ReflectionTest\Test\ReflectionTest.One.dll
-H:\Desktop\ReflectionTest\ReflectionTest\Test\ReflectionTest.One.pdb
-H:\Desktop\ReflectionTest\ReflectionTest.One\obj\Debug\ReflectionTest.One.dll
-H:\Desktop\ReflectionTest\ReflectionTest.One\obj\Debug\ReflectionTest.One.pdb
-H:\Desktop\ReflectionTest\ReflectionTest.One\obj\Debug\ReflectionTest.One.csprojResolveAssemblyReference.cache

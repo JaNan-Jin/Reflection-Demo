@@ -1,0 +1,5 @@
+H:\Desktop\InterFace-Reflection-Demo\InterFace-Reflection-Demo\bin\Debug\Demo.Reflection.dll
+H:\Desktop\InterFace-Reflection-Demo\InterFace-Reflection-Demo\bin\Debug\Demo.Reflection.pdb
+H:\Desktop\InterFace-Reflection-Demo\Demo.Reflection\obj\Debug\Demo.Reflection.csprojResolveAssemblyReference.cache
+H:\Desktop\InterFace-Reflection-Demo\Demo.Reflection\obj\Debug\Demo.Reflection.dll
+H:\Desktop\InterFace-Reflection-Demo\Demo.Reflection\obj\Debug\Demo.Reflection.pdb

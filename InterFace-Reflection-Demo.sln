@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterFace-Reflection-Demo", "InterFace-Reflection-Demo\InterFace-Reflection-Demo.csproj", "{FD75B083-408C-4638-90C8-C615411CB104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IReflection", "IReflection\IReflection.csproj", "{33625635-B3DD-4CDB-A803-3C7708325A55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Reflection", "Demo.Reflection\Demo.Reflection.csproj", "{14CCDF45-306B-414D-AC72-E1CC28CB58B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD75B083-408C-4638-90C8-C615411CB104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD75B083-408C-4638-90C8-C615411CB104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD75B083-408C-4638-90C8-C615411CB104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD75B083-408C-4638-90C8-C615411CB104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33625635-B3DD-4CDB-A803-3C7708325A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33625635-B3DD-4CDB-A803-3C7708325A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33625635-B3DD-4CDB-A803-3C7708325A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33625635-B3DD-4CDB-A803-3C7708325A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CCDF45-306B-414D-AC72-E1CC28CB58B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CCDF45-306B-414D-AC72-E1CC28CB58B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CCDF45-306B-414D-AC72-E1CC28CB58B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CCDF45-306B-414D-AC72-E1CC28CB58B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,5 +1,0 @@
-H:\Desktop\ReflectionTest\ReflectionTest\Test\ReflectionTest.Two.dll
-H:\Desktop\ReflectionTest\ReflectionTest\Test\ReflectionTest.Two.pdb
-H:\Desktop\ReflectionTest\ReflectionTest.Two\obj\Debug\ReflectionTest.Two.dll
-H:\Desktop\ReflectionTest\ReflectionTest.Two\obj\Debug\ReflectionTest.Two.pdb
-H:\Desktop\ReflectionTest\ReflectionTest.Two\obj\Debug\ReflectionTest.Two.csprojResolveAssemblyReference.cache
